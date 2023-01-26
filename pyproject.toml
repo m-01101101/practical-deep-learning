@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "practical-deep-learning"
+version = "0.1.0"
+description = ""
+authors = ["michael <23582917+m-01101101@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+numpy = "^1.24.1"
+pandas = "^1.5.2"
+altair = "^4.2.0"
+matplotlib = "^3.6.3"
+jupyterlab = "^3.5.2"
+notebook = "^6.5.2"
+plotly = "^5.12.0"
+scikit-learn = "^1.2.0"
+transformers = "^4.25.1"
+rich = "^13.1.0"
+torchvision = "^0.14.1"
+torch = "^1.13.1"
+scipy = "^1.10.0"
+xgboost = "^1.7.3"
+kaggle = "^1.5.12"
+fastdownload = "^0.0.7"
+duckduckgo-search = "^2.8.0"
+duckdb = "^0.6.1"
+fastai = "^2.7.10"
+ipywidgets = "^8.0.4"
+graphviz = "^0.20.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
